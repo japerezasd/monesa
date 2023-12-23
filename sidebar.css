@@ -1,0 +1,27 @@
+.sideBar {
+  position: fixed;
+  bottom: 0px;
+  top: 56px;
+  left: 0px;
+  width: 74px;
+  background-color: white;
+  display: flex;
+  padding-top: 5px;
+  flex-direction: column;
+  z-index: 100;
+}.home, .explore,.subscription,.originals,.youtubeMusic,.library {
+  width: 24px;
+  margin-bottom: 6px;
+}.mainContainer {
+  display: flex;
+  flex-direction: column;
+}.sideBarContainer {
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.8px;
+  flex-direction: column;
+}.sideBarLabel {
+  font-size: 10px;
+}
